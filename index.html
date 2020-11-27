@@ -2,112 +2,112 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Thi Schenkel</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
     <script src="https://kit.fontawesome.com/e90ad6ef59.js" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
-    <main>
+    <nav class="navigation">
+        <div>
+            <h2>Thi Schenkel</h2>
+        </div>
+        <div id="menu">
+            <ul class="nopuce1">
+                <li><a href="#presentation">Profil</a></li>
+                <li><a href="#experiencepro">Expériences</a></li>
+                <li><a href="#formation">Formations</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <section id="header">
-            <header>
-                <h1>Thi SCHENKEL</h1>
-                <nav>
-                    <a href="#profil">Profil</a>
-                    <a href="#experiencepro">Expériences</a>
-                    <a href="#formations">Formations</a>
-                </nav>
-            </header>
 
-            <div class="blanc">
-                <div class="nom">
-                    <h2>Thi SCHENKEL</h2>
-                    <span class="bleus">Développeuse Fullstack</span>
-                </div>
-
-                <div>
-                    <img class="ts" src="./img/photoTS.png" alt="photo de Thi Schenkel">
-                </div>
+    <!-- Hearder -->
+    <header>
+        <div class="nom">
+            <div class="ts">
+                <h1>Thi Schenkel</h1>
+                <h3 class="bleu">Développeuse Fullstack</h3>
             </div>
-        </section>
-
-        <section id="profil">
-            <h3 class="titre1">Présentation</h3>
-
-            <div class="presentation">
-                <ul>
-                    <li>Passionnée de nouvelles technologies</li>
-                    <li>Autonome, rigoureuse</li>
-                    <li>Une bonne journée ne se passe pas sans un livre</li>
-                </ul>
+            <div class="tsphoto">
+                <img src="./img/photoTS.png" alt="Photo de Thi Schenkel">
             </div>
-        </section>
+        </div>
 
-        <section id="experiencepro">
-            <h3 class="bleu">Expériences professionnelles</h3>
+    </header>
 
-            <div class="exppro">
-                <div class="professionnel">
-                    <div class="stagiaire">
-                        <span><b>Stagiaire en développement chez TechLabs</b></span>
-                        <span><b>2018</b></span></div>
-                    <div class="normal"><span>Création du site web</span>
-                        <span>Créations de tests unitaires pour l'application interne</span>
-                    </div>
+    <!-- Présentation -->
+    <section id="presentation" class="bgbleu">
+        <div class="box">
+            <h3 class="center">Présentation</h3>
+            <ul>
+                <li>Passionnée de nouvelles technologie</li>
+                <li>Autonome, rigoureuse</li>
+                <li>Une bonne journée ne se passe pas sans un bon livre</li>
+            </ul>
+        </div>
+    </section>
 
-                    <div class="stagiaire"><span><b>Bénévole Konexio</b></span>
-                        <span><b>2016 - 2018</b></span></div>
-                    <div class="normal"><span>Organisation des évènements</span>
-                        <span>Validation des comptes de l'association</span>
-                    </div>
+    <!-- Expérience -->
+    <section id="experiencepro">
+        <h3 class="bleu center">Expériences</h3>
+        <div class="exp">
+            <div class="ligne">
+                <span class="bold">Stagiaire en développement chez TechLabs</span><span class="bold">2018</span>
+            </div>
+            <p>Création du site web</p>
+            <p>Création des test unitaire pour l'application interne</p>
+            <div class="ligne">
+                <span class="bold">Bénévole Konexio</span><span class="bold">2016-2018</span>
+            </div>
+            <p>Organisation des évènements</p>
+            <p>Validation des comptes de l'association</p>
+        </div>
+    </section>
+
+    <!-- Formations -->
+    <section id="formation" class="bgbleu">
+        <div class="box">
+            <h3 class="center">Formations</h3>
+            <div class="ligne">
+                <span>Licence de médecine à Paris XXI</span><span>2015 - 2018</span>
+            </div>
+            <div class="ligne">
+                <span>Bac S au lycée Marco Polo</span><span>2015</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Passions -->
+    <section id="passions">
+        <div class="box">
+            <h3 class="bleu center">Passions</h3>
+            <span>Saut en parachute, Bali</span>
+        </div>
+    </section>
+
+    <!-- Footer / Social -->
+    <footer class="bgbleu ">
+        <div class="box">
+            <ul class="nopuce footerresponsive">
+                <div class="blog">
+                    <li>Mon blog Tech</li>
+                    <li>Mon blog voyage</li>
                 </div>
-            </div>
-        </section>
-
-        <section id="formations">
-            <h3 class="blanca">Formations</h3>
-            <div class="formation">
-                <div class="stagiaire">
-                    <div><span>Licence en médecine à Paris XXI</span></div>
-                    <div><span>2015 - 2018</span></div>
+                <div class="social">
+                    <li><a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
                 </div>
-                <div class="stagiaire">
-                    <div><span>Bac S au lycée Marco Polo</span></div>
-                    <div><span>2015</span></div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="passion">
-            <h3 class="bleu">Passions</h3>
-            <div class="passions">
-                <span>Saut en parachute, Bali</span>
-            </div>
-
-        </section>
-
-        <footer>
-            <nav>
-                <ul class="sspuce">
-                    <div class="blog">
-                        <li><a href="#">Mon blog tech</a></li>
-                        <li><a href="#">Mon blog voyage</a></li>
-                    </div>
-                    <div class="reseaux">
-                        <li><i class="fab fa-linkedin"></i><a href="#">LinkedIn</a></li>
-                        <li><i class="fab fa-twitter"></i><a href="#">Twitter</a></li>
-                    </div>
-                </ul>
-            </nav>
-        </footer>
-    </main>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 
