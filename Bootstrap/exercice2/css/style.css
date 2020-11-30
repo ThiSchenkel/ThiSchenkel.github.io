@@ -1,0 +1,47 @@
+.row div div{
+    height: 75px;
+    margin-bottom: 8px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.containermax{
+    display: none;
+
+}
+
+#surprise{
+    display: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5);
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color:red;
+}
+
+@media (min-width : 768px){
+    #ghost{
+        display: none;
+    }
+
+    #surprise{
+        display: block;
+    }
+
+
+}
